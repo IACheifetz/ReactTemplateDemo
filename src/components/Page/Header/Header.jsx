@@ -1,21 +1,22 @@
-import Menu from './Menu.jsx';
+import SlideoutMenu from './SlideoutMenu.jsx';
 import Navigation from './Navigation.jsx';
+import User from './User.jsx';
 import styles from './Header.css';
 
 export default function Header() {
   return (
     <header className={styles.Header}>
       <div className={styles.MenuContainer}>
-        <Menu />
+        <SlideoutMenu />
       </div>
 
-      <h1>My App</h1>
+      <h1>App Template Demo</h1>
 
       <div className={styles.NavigationContainer}>
         <Navigation />
       </div>
 
-      <div>User</div>
+      <User />
     </header>
   );
 }
