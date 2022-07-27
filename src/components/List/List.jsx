@@ -1,3 +1,15 @@
+import styles from './List.css';
+
 export default function List() {
-  return <p>I am the List page, I dont know dont ask me</p>;
+  return (
+    <ul className={styles.List}>
+      {Array.from({ length: 10 }, (x, i) => i + 1).map(
+        (n) => (
+          <li key={n} className="accent-theme">
+            list item {n}
+          </li>
+        )
+      )}
+    </ul>
+  );
 }
