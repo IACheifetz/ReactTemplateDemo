@@ -4,24 +4,23 @@
 
 :root {
   --primary-font: 'Poppins', 'Segoe UI', Candara,
-    'Bitstream Vera Sans', 'DejaVu Sans',
-    'Bitstream Vera Sans', 'Trebuchet MS', Verdana,
-    'Verdana Ref', sans-serif;
+    'Bitstream Vera Sans', 'DejaVu Sans', 'Bitstream Vera Sans',
+    'Trebuchet MS', Verdana, 'Verdana Ref', sans-serif;
   --label-font: 'Bebas Neue', Impact, Haettenschweiler,
     'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat',
     'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
 
-  --header-color: maroon;
-  --color-2: darkgrey;
-  --offset-color: #993300;
-  --color-4: darkgreen;
-  --background-color: grey;
+  --header-color: #00a8c6;
+  --color-2: #40c0cb;
+  --offset-color: #d3dcbd;
+  --color-4: #b9d660;
+  --background-color: #f9f2e7;
   --black-color: rgb(27, 42, 48);
   --caption-color: rgb(65, 99, 112);
   --white-color: white;
 
   --padding: 20px;
-  @media (min-width: 750px) {
+  @media (min-width: 700px) {
     --padding: 40px;
   }
 }
