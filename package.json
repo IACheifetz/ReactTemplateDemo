@@ -14,6 +14,7 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
+        "@supabase/supabase-js": "^1.35.4",
         "classnames": "^2.3.1",
         "github": "^14.0.0",
         "gitignore": "^0.7.0",
