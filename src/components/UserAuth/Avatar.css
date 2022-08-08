@@ -1,0 +1,8 @@
+.Avatar {
+    height: 32px;
+    width: 32px;
+    object-fit: cover;
+    border: 1px solid var(--black-color);
+    border-radius: 100%;
+  }
+  
