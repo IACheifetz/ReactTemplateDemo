@@ -32,3 +32,7 @@ export async function updateFamily(id, familyUpdate) {
     .eq('id', id)
     .single();
 }
+
+export async function addBunny(bunny) {
+  return await client.from('fuzzy_bunnies').insert(bunny).single();
+}
