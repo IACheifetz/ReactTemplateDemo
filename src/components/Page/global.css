@@ -27,6 +27,11 @@
   @media (min-width: 700px) {
     --padding: 40px;
   }
+
+  --header-height: 35px;
+  @media (min-width: 700px) {
+    --header-height: 50px;
+  }
 }
 
 body {
